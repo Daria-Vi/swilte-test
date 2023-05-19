@@ -58,7 +58,6 @@
  input[type='text'] {
   padding: 5px;
   border: 1px solid #ccc;
-  border-radius: 5px;
   margin-right: 10px;
   width: 150px;
  }
@@ -67,21 +66,23 @@
   border-collapse: collapse;
   width: 100%;
  }
- th,
- td {
-  border: 1px solid #ccc;
+ thead {
+    color: #4a0e72;
+;
+ }
+ th, td {
+  border: 1px solid #4a0e72;
   padding: 8px;
-  text-align: left;
+  text-align: center;
  }
  th {
   background-color: #eee;
  }
  button {
   padding: 5px 10px;
-  background-color: #4caf50;
+  background-color: hsl(249, 53%, 52%);
   color: white;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
  }
  h1 {
