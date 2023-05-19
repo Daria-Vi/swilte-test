@@ -80,7 +80,7 @@
  }
  button {
   padding: 5px 10px;
-  background-color: hsl(249, 53%, 52%);
+  background-color: #5744c5;
   color: white;
   border: none;
   cursor: pointer;

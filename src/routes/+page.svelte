@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Имя Фамилия</title>
+    <title>Сайт ЧДВ</title>
 </svelte:head>
 
 <div class="container">
@@ -8,21 +8,18 @@
             <div class="container info-container">
                 <div class="info-text">
                     <h1>
-                        <p class="animate-text-1">Lorem ipsum dolor sit,</p>
-                        <p class="text-2">Lorem ipsum dolor sit amet.</p>
+                        <p class="animate-text-1">Добро пожаловать на персональный сайт преподавателя</p>
+                        <p class="text-2">Чипиштановой Дарьи Викторовны</p>
                     </h1>
                 </div>
                 <h2 class="subtitle">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Accusantium architecto aut, cupiditate dolores ducimus
-                    expedita labore nemo odio quibusdam quidem sapiente soluta.
+                    <p>Посетив страницы сайта, Вы узнаете немного обо мне, </p>
+                    <p>познакомитесь с результатами моей педагогической деятельности, </p>
+                    <p>с актуальной информацией о рабочих моментах, </p>
+                    <p>а также посмотрите, как со мной можно связаться. </p>
                 </h2>
-                <div
-                    style="color:black"
-                    class="scroll-button animate-scroll"
-                    tabindex="0"
-                >
-                    <a href="/about">Click Here</a>
+                <div style="color:black" class="scroll-button animate-scroll" tabindex="0">
+                    <a href="/about">Начнём...</a>
                     <div class="arrow">→</div>
                 </div>
             </div>
@@ -69,10 +66,10 @@
         margin-top: 0.5rem;
     }
     .background-div {
-        background-color: #ecebe8;
+        background-color: #f8d196;
         width: 100%;
         height: 56vh;
-        margin: -205px auto;
+        margin: -295px auto;
     }
     .info .info-text {
         position: relative;
