@@ -1,6 +1,4 @@
-<script>
-    import { routes } from "./routes";
-</script>
+
 
 <svelte:head>
     <title>Блог</title>
@@ -21,7 +19,9 @@
         {/each}
     </div>
 </div>
-
+<script>
+    import { routes } from "./routes";
+</script>
 <style>
     .container {
         margin: 50px auto;
